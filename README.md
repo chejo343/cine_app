@@ -6,7 +6,7 @@ Aplicación para reservar boletos de cine
 * MongoDB v4.0.8
 
 ## Intrucciones de instalación
-Crear el archivo ```.env``` en la raíz del proyecto completar los datos requeridos
+Crear el archivo ```.env``` en la raíz del proyecto completar los datos requeridos, basados en el archivo ```.env.example```
 ```
 HOST=<<host>>
 PORT=<<puerto>>
