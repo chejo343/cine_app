@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "peliculas",
+  "info": {
+    "name": "pelicula"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "tmbd_id": {
+      "type": "integer",
+      "required": true
+    },
+    "data": {
+      "type": "json"
+    },
+    "estado": {
+      "type": "enumeration",
+      "enum": [
+        "activo",
+        "inactivo",
+        "proximo"
+      ],
+      "default": "proximo"
+    },
+    "cast": {
+      "type": "json"
+    },
+    "youtube_id": {
+      "type": "string"
+    }
+  }
+}
