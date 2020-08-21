@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "funcions",
+  "info": {
+    "name": "funcion"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "fecha": {
+      "type": "date",
+      "required": true
+    },
+    "hora_inicio": {
+      "type": "time",
+      "required": true
+    },
+    "pelicula": {
+      "model": "pelicula",
+      "via": "funcions"
+    },
+    "sala": {
+      "model": "sala",
+      "via": "funcions"
+    },
+    "precio": {
+      "type": "decimal",
+      "required": true
+    }
+  }
+}

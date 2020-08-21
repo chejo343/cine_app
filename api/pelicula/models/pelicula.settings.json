@@ -33,6 +33,10 @@
     },
     "youtube_id": {
       "type": "string"
+    },
+    "funcions": {
+      "via": "pelicula",
+      "collection": "funcion"
     }
   }
 }

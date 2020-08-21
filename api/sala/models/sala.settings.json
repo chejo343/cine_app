@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "salas",
+  "info": {
+    "name": "sala"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "distribucion_asientos": {
+      "type": "json"
+    },
+    "filas": {
+      "type": "integer"
+    },
+    "columnas": {
+      "type": "integer"
+    },
+    "funcions": {
+      "via": "sala",
+      "collection": "funcion"
+    }
+  }
+}
