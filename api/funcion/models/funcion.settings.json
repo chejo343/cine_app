@@ -22,8 +22,8 @@
       "via": "funcions"
     },
     "sala": {
-      "model": "sala",
-      "via": "funcions"
+      "via": "funcions",
+      "model": "sala"
     },
     "precio": {
       "type": "decimal",

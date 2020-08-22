@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "combos",
+  "info": {
+    "name": "combo"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "imagen": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "precio": {
+      "type": "decimal"
+    }
+  }
+}

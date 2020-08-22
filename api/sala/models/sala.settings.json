@@ -12,9 +12,6 @@
     "nombre": {
       "type": "string"
     },
-    "distribucion_asientos": {
-      "type": "json"
-    },
     "filas": {
       "type": "integer"
     },
@@ -22,8 +19,8 @@
       "type": "integer"
     },
     "funcions": {
-      "via": "sala",
-      "collection": "funcion"
+      "collection": "funcion",
+      "via": "sala"
     }
   }
 }
