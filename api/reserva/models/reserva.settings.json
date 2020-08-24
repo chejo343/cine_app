@@ -19,6 +19,9 @@
     "boletos": {
       "collection": "boleto",
       "via": "reserva"
+    },
+    "codigo": {
+      "type": "string"
     }
   }
 }
