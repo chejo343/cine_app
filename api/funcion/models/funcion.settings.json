@@ -28,6 +28,10 @@
     "precio": {
       "type": "decimal",
       "required": true
+    },
+    "reservas": {
+      "via": "funcion",
+      "collection": "reserva"
     }
   }
 }

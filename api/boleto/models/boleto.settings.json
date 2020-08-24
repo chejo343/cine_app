@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "boletos",
+  "info": {
+    "name": "boleto"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "px": {
+      "type": "integer"
+    },
+    "py": {
+      "type": "integer"
+    },
+    "reserva": {
+      "via": "boletos",
+      "model": "reserva"
+    }
+  }
+}
