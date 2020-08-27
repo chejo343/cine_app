@@ -35,8 +35,12 @@
       "type": "string"
     },
     "funcions": {
-      "via": "pelicula",
-      "collection": "funcion"
+      "collection": "funcion",
+      "via": "pelicula"
+    },
+    "taquilla": {
+      "type": "integer",
+      "default": 0
     }
   }
 }

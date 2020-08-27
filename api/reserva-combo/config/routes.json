@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/reserva-combos",
+      "handler": "reserva-combo.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/reserva-combos/count",
+      "handler": "reserva-combo.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/reserva-combos/:id",
+      "handler": "reserva-combo.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/reserva-combos",
+      "handler": "reserva-combo.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/reserva-combos/:id",
+      "handler": "reserva-combo.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/reserva-combos/:id",
+      "handler": "reserva-combo.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -30,6 +30,7 @@ $RECYCLE.BIN/
 *.msi
 *.msm
 *.msp
+go.mod
 
 
 ############################
@@ -107,7 +108,6 @@ coverage
 # Strapi
 ############################
 
-.env
 license.txt
 exports
 .cache

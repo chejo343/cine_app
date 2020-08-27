@@ -28,6 +28,10 @@
     },
     "descripcion": {
       "type": "text"
+    },
+    "reserva_combos": {
+      "via": "combo",
+      "collection": "reserva-combo"
     }
   }
 }

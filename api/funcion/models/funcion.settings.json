@@ -18,8 +18,8 @@
       "required": true
     },
     "pelicula": {
-      "model": "pelicula",
-      "via": "funcions"
+      "via": "funcions",
+      "model": "pelicula"
     },
     "sala": {
       "via": "funcions",

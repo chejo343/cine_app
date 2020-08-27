@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reserva_combos",
+  "info": {
+    "name": "reserva_combo"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "reserva": {
+      "model": "reserva",
+      "via": "reserva_combos"
+    },
+    "combo": {
+      "model": "combo",
+      "via": "reserva_combos"
+    },
+    "cantidad": {
+      "type": "integer"
+    },
+    "precio": {
+      "type": "decimal"
+    }
+  }
+}

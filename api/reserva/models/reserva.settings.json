@@ -22,6 +22,10 @@
     },
     "codigo": {
       "type": "string"
+    },
+    "reserva_combos": {
+      "via": "reserva",
+      "collection": "reserva-combo"
     }
   }
 }
