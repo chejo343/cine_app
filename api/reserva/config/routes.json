@@ -26,6 +26,14 @@
     },
     {
       "method": "POST",
+      "path": "/reservas/validate",
+      "handler": "reserva.validateBoletos",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
       "path": "/reservas",
       "handler": "reserva.create",
       "config": {
